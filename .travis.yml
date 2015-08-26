@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+	- "0.12"
+services:
+	- mongodb
+env:
+	- TEST_DIR=rest-express
+script: cd $TEST_DIR
