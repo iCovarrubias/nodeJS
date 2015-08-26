@@ -85,5 +85,5 @@ app.del('/collections/:collectionName/:id', function(req, res, next) {
 })
 
 app.listen(app.get('port'), function() {
-	console.log('Server is running on port:', app.get('port'))
+	console.log('Server is running on port:', app.get('port'));
 })
