@@ -5,4 +5,4 @@ services:
 	- mongodb
 env:
 	- TEST_DIR=rest-express
-script: cd $TEST_DIR
+script: cd $TEST_DIR && npm install && npm test
