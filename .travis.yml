@@ -3,6 +3,6 @@ node_js:
 	- "0.12"
 services:
 	- mongodb
-env:
-	- TEST_DIR=rest-express
-script: cd $TEST_DIR && npm install && npm test
+before_script:
+	- cd rest-hapi
+	- npm install
